@@ -1,0 +1,13 @@
+NAME="m4"
+VERSION=1.4.16
+RELEASE=1
+CATEGORY="Base"
+SUMMARY="GNU M4 macro processor"
+DESCRIPTION="GNU M4 is an implementation of the traditional Unix macro processor.
+It is mostly SVR4 compatible although it has some extensions (for example,
+handling more than 9 positional parameters to macros). GNU M4 also has built-in
+functions for including files, running shell commands, doing arithmetic, etc."
+HOMEPAGE="http://www.gnu.org/software/m4/"
+SRC_URI="mirror://gnu/m4/m4-${VERSION}.tar.xz"
+
+CYGCONF_ARGS="--disable-assert"
